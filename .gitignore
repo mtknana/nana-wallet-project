@@ -1,0 +1,17 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.pem
+**/*.p12
+
+# Generated build/dependency outputs
+**/vendor/
+**/node_modules/
+**/.dart_tool/
+**/build/
+**/coverage/

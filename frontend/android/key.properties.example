@@ -1,0 +1,5 @@
+# Copy this file to key.properties; keep the actual file and keystore private.
+storeFile=upload-keystore.jks
+storePassword=REPLACE_LOCALLY
+keyAlias=upload
+keyPassword=REPLACE_LOCALLY

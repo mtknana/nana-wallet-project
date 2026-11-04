@@ -1,0 +1,18 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/cancel-tx
+url: http://127.0.0.1:8000/api/wallet/cancel-tx
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"reference_id\": \"BIL-8NB1HCEP9PJN\"\r
+
+    }\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 15163

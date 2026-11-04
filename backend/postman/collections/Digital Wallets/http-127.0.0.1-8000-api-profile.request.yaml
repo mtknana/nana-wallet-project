@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/profile
+url: http://127.0.0.1:8000/api/profile
+method: GET
+headers:
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 3000

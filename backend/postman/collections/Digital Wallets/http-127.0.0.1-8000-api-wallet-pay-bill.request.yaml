@@ -1,0 +1,26 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/pay-bill
+url: http://127.0.0.1:8000/api/wallet/pay-bill
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"biller_name\": \"Cintri Cambodia\",\r
+
+    \    \"consumer_number\": \"Cintri-KH-99483\",\r
+
+    \    \"amount\": 5.00,\r
+
+    \    \"idempotency_key\": \"IDEM-BILL-KEY-301\"\r
+
+    }\r
+
+    \r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 16000

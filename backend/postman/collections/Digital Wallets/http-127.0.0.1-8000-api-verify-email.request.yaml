@@ -1,0 +1,20 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/verify-email
+url: http://127.0.0.1:8000/api/verify-email
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"otp_code\": \"123456\"\r
+
+    }\r
+
+    \r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 17000

@@ -1,0 +1,28 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/calendar/events
+url: http://127.0.0.1:8000/api/calendar/events
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"WiFi Monthly Subscription\",\r
+
+    \    \"category\": \"bill\",\r
+
+    \    \"estimated_amount\": 25.00,\r
+
+    \    \"due_date\": \"2026-09-01\",\r
+
+    \    \"is_recurring\": true,\r
+
+    \    \"recurrence_period\": \"monthly\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 9|p5YsLCHKGyPmckJVent1d200q1M397vXlYbZk1HS385db949
+order: 6000

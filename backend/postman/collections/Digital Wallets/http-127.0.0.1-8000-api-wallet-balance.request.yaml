@@ -1,0 +1,14 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/balance
+url: http://127.0.0.1:8000/api/wallet/balance
+method: GET
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 9|p5YsLCHKGyPmckJVent1d200q1M397vXlYbZk1HS385db949
+order: 10000

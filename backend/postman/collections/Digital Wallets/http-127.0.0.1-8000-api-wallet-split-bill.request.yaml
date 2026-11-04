@@ -1,0 +1,28 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/split-bill
+url: http://127.0.0.1:8000/api/wallet/split-bill
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Dori Dori Lunch Group split\",\r
+
+    \    \"total_amount\": 60.00,\r
+
+    \    \"members\": [\r
+
+    \        {\"email\": \"koukimleng@gmail.com\"},\r
+
+    \        {\"email\": \"mithonakhon@gmail.com\"}\r
+
+    \    ]\r
+
+    }\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 11000

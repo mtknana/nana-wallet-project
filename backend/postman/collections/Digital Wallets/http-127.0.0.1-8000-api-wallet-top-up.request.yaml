@@ -1,0 +1,22 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/top-up
+url: http://127.0.0.1:8000/api/wallet/cancel-tx
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"phone_number\": \"092626350\",\r
+
+    \    \"amount\": 1.00,\r
+
+    \    \"idempotency_key\": \"IDEM-TOPUP-KEY-302\"\r
+
+    }\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 14000

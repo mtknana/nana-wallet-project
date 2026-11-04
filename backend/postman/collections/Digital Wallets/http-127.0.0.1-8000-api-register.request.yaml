@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/register
+description: ""
+url: http://127.0.0.1:8000/api/register
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Thorn Choupinh\",\r
+
+    \  \"email\": \"chyoulop1@gmail.com\",\r
+
+    \  \"password\": \"Chyoulop!@#123\",\r
+
+    \  \"password_confirmation\": \"Chyoulop!@#123\", \r
+
+    \  \"role\": \"user\"\r
+
+    }"
+order: 1000

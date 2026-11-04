@@ -1,0 +1,61 @@
+  name: digital_wallet_app
+  description: "NaNa Wallet - Digital Wallet Application"
+  publish_to: 'none'
+
+  version: 1.0.0+1
+
+  environment:
+    sdk: ^3.12.2
+
+  # ============================================================
+  # DEPENDENCIES
+  # ============================================================
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    # iOS-style icons
+    cupertino_icons: ^1.0.8
+
+    # HTTP requests — Laravel API
+    http: ^1.6.0
+
+    # NaNa Wallet premium icons
+    lucide_icons_flutter: ^3.1.15
+
+    # QR Code generation
+    qr_flutter: ^4.1.0
+
+    # Biometric authentication
+    local_auth: ^3.0.2
+
+    # File storage
+    path_provider: ^2.1.6
+
+    # Share PDF / files
+    share_plus: ^13.3.1
+
+    # Open generated PDF files
+    open_filex: ^4.7.0
+
+    # Mobile QR scan
+    mobile_scanner: ^7.4.2
+
+  # ============================================================
+  # DEVELOPMENT DEPENDENCIES
+  # ============================================================
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+
+    # Flutter lint rules
+    flutter_lints: ^6.0.0
+
+  # ============================================================
+  # FLUTTER
+  # ============================================================
+
+  flutter:
+    uses-material-design: true

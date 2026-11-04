@@ -1,0 +1,24 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/pay-qr
+url: http://127.0.0.1:8000/api/wallet/pay-qr
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"merchant_name\": \"Brown Coffee Roastery\",\r
+
+    \    \"amount\": 4.50,\r
+
+    \    \"idempotency_key\": \"IDEM-QR-KEY-999\",\r
+
+    \    \"qr_payload_string\": \"khqr://brown_coffee/invoice_id_777\"\r
+
+    }\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 12000

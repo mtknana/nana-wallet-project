@@ -1,0 +1,24 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/transfer
+url: http://127.0.0.1:8000/api/wallet/transfer
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"receiver_email\": \"mithonakhon@gmail.com\",\r
+
+    \    \"amount\": 100.00,\r
+
+    \    \"idempotency_key\": \"IDEM-P2P-KEY-888\",\r
+
+    \    \"description\": \"Happy Birthday Gift Share\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 8|YkQMkPQaiVfTZFqby19uBmOtw8ARQ0mieJJ223XVe71f066c
+order: 13000

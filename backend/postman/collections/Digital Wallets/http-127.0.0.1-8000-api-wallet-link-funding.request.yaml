@@ -1,0 +1,22 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/wallet/link-funding
+url: http://127.0.0.1:8000/api/wallet/link-funding
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"type\": \"bank_account\",\r
+
+    \    \"provider_name\": \"ABA Bank\",\r
+
+    \    \"account_number\": \"000987654\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 9|p5YsLCHKGyPmckJVent1d200q1M397vXlYbZk1HS385db949
+order: 7000
