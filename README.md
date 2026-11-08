@@ -1,6 +1,6 @@
 # NaNa Wallet — Project
 
-This private repository combines the NaNa Wallet Flutter client and Laravel API source for convenient school-project review.
+This repository combines the NaNa Wallet Flutter client and Laravel API source for convenient school-project review.
 
 ## Repository layout
 
